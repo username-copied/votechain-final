@@ -1,0 +1,42 @@
+.elec-card > * {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .elec-card button {
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 4rem;
+    padding: 2rem 4rem;
+    background-color: #d1d5db;
+  }
+  
+  .elec-card button:hover {
+    /* background-color: rgb(203, 203, 203); */
+    cursor: pointer;
+  }
+  
+  .elec-card {
+    height: 150rem;
+    background-color: #f3f4f6;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 3.5rem;
+    /* drop-shadow: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03))
+      drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08)); */
+    font-weight: 100;
+  }
+  
+  .elec-card img {
+    border-radius: 2rem;
+  }
+  
+  .button-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }

@@ -1,0 +1,19 @@
+.cards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    flex: 3;
+    padding: 10rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    overflow-y: scroll;
+  }
+  
+  .cards::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .card::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
